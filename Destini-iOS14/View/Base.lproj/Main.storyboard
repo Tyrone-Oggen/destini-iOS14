@@ -30,17 +30,18 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tW-P3-1Lc">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9tW-P3-1Lc">
                                         <rect key="frame" x="0.0" y="610" width="374" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="LUA-pg-XD0"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                         <state key="normal" title="Choice 1" backgroundImage="choice1Background"/>
                                         <connections>
                                             <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jy9-zQ-26J"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7E-eM-zqV" userLabel="Choice 2">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="B7E-eM-zqV" userLabel="Choice 2">
                                         <rect key="frame" x="0.0" y="718" width="374" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="brZ-JE-nsz"/>
