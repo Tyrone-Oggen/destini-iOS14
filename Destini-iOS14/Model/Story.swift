@@ -8,13 +8,15 @@
 import Foundation
 
 struct Story {
-    let storyTitle: String
-    let storyChoice1: String
-    let storyChoice2: String
+    let title: String
+    let choice1: String
+    let choice1Destination: Int
+    let choice2: String
+    let choice2Destination: Int
     
-    init(title: String, choice1: String, choice2: String) {
-        storyTitle = title
-        storyChoice1 = choice1
-        storyChoice2 = choice2
-    }
+//    init(title: String, choice1: String, choice2: String) {
+//        storyTitle = title
+//        storyChoice1 = choice1
+//        storyChoice2 = choice2
+//    }
 }

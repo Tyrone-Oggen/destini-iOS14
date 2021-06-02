@@ -20,13 +20,19 @@ class ViewController: UIViewController {
         updateUI()
         
     }
-
+    
     @IBAction func choiceMade(_ sender: UIButton) {
         let userChoice = sender.currentTitle!
         
         storyBrain.nextStory(userChoice)
         
         updateUI()
+        
+        sender.alpha = 0.7
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1 ) {
+            sender.alpha = 1.0
+        }
     }
     
     func updateUI() {
